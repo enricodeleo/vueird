@@ -1,0 +1,18 @@
+html,
+body {
+  min-height: 100%;
+  // overflow-x: hidden;
+}
+
+[v-cloak] {
+  display:none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.main-wrapper {
+  min-height: 100%;
+  position: relative;
+}

@@ -1,0 +1,40 @@
+@import "styles/global-vars";
+
+@import "../node_modules/bootstrap-scss/functions";
+@import "../node_modules/bootstrap-scss/variables";
+@import "../node_modules/bootstrap-scss/mixins";
+@import "../node_modules/bootstrap-scss/root";
+@import "../node_modules/bootstrap-scss/reboot";
+@import "../node_modules/bootstrap-scss/type";
+@import "../node_modules/bootstrap-scss/images";
+@import "../node_modules/bootstrap-scss/code";
+@import "../node_modules/bootstrap-scss/grid";
+@import "../node_modules/bootstrap-scss/tables";
+@import "../node_modules/bootstrap-scss/forms";
+@import "../node_modules/bootstrap-scss/buttons";
+
+
+.editor-post-title__block {
+	margin-bottom: 55px;
+	margin-top: 0 !important;
+	max-width: 780px;
+
+	@media (min-width: 800px) {
+		margin-bottom: 70px;
+		margin-top: 40px;
+	}
+
+	.editor-post-title__input {
+		font-family: $font-family-sans-serif;
+		font-size: 30px;
+		font-weight: 700;
+		line-height: 1.6em;
+		text-align: center;
+		text-rendering: optimizeLegibility;
+		font-smoothing: antialiased;
+
+		@media (min-width: 800px) {
+			font-size: 50px;
+		}
+	}
+}

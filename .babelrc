@@ -1,0 +1,34 @@
+{
+  "plugins": [
+    "@babel/plugin-transform-runtime"
+  ],
+  "env": {
+    "development": {
+      "presets": [
+        [
+          "@babel/preset-env",
+          {
+            "modules": false,
+            "targets": {
+              "ie": "9"
+            }
+          }
+        ]
+      ]
+    },
+    "production": {
+      "presets": [
+        [
+          "@babel/preset-env",
+          {
+            "modules": false,
+            "forceAllTransforms": true,
+            "targets": {
+              "ie": "9"
+            }
+          }
+        ]
+      ]
+    }
+  }
+}

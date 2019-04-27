@@ -1,0 +1,9 @@
+.gutenberg {
+  & > * {
+    @extend .container;
+  }
+  & > *.alignfull {
+    max-width: none;
+    padding: 0;
+  }
+}

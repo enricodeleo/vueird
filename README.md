@@ -1,5 +1,5 @@
 
-![Vueird Logo](./screenshot.png)
+![Vueird Logo](./vueird.jpg)
 
 # Vueird
 

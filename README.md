@@ -39,3 +39,13 @@ In order to take advantage of livereload, you need to target your wordpress deve
 This theme generates a custom editor style used by the WordPress editor/Gutenberg that you can write in SCSS (`./src/editor-style.scss`).
 
 `npm run editorstyle`
+
+_________________________________________
+
+## Author
+[Enrico Deleo](https://enricodeleo.com)
+
+# Are you looking for a modern, robust, portable WordPress development environment?
+[Look no further, try my Wpacked WordPress development starter kit](https://github.com/enricodeleo/wpacked/)
+
+

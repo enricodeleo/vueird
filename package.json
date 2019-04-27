@@ -1,25 +1,22 @@
 {
-  "name": "presspack",
-  "version": "0.0.1",
-  "description": "WordPress, Docker, Webpack, Win.",
+  "name": "vueird",
+  "version": "1.0.0",
+  "description": "A clean WordPress theme powered by Vue and WebPack",
   "scripts": {
     "start": "cross-env NODE_ENV=development node ./scripts/start.js",
     "build": "cross-env NODE_ENV=production node ./scripts/build.js",
     "editorstyle": "node-sass src/editor-style.scss build/editor-style.css",
     "postinstall": "npm run build"
   },
-  "author": "jaredpalmer",
+  "author": "Enrico Deleo <hello@enricodeleo.com>",
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.3.4",
-    "axios": "^0.18.0",
     "bootstrap-scss": "^4.3.1",
     "bootstrap-vue": "^2.0.0-rc.15",
     "change-case": "^3.1.0",
-    "jquery": "^3.3.1",
+    "jquery": "^3.4.0",
     "vue": "^2.6.10",
-    "vue-carousel": "^0.18.0",
-    "vue-fuse": "^2.0.2",
     "vue-lazyload": "^1.2.6",
     "vue-mq": "^1.0.1",
     "vuejs-logger": "^1.5.3"

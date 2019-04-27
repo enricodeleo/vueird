@@ -6,7 +6,7 @@
     "start": "cross-env NODE_ENV=development node ./scripts/start.js",
     "build": "cross-env NODE_ENV=production node ./scripts/build.js",
     "editorstyle": "node-sass src/editor-style.scss build/editor-style.css",
-    "postinstall": "npm run build"
+    "postinstall": "npm run editorstyle && npm run build"
   },
   "author": "Enrico Deleo <hello@enricodeleo.com>",
   "license": "MIT",

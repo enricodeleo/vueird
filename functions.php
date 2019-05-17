@@ -1,6 +1,8 @@
 <?php
 
-include_once './lib/wp-bootstrap-navwalker.php';
+$root = dirname(__FILE__);
+
+require_once($root . '/lib/wp-bootstrap-navwalker.php');
 
 // Clean up wordpres <head>
 remove_action('wp_head', 'rsd_link'); // remove really simple discovery link

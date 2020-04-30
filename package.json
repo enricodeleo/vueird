@@ -15,7 +15,7 @@
     "bootstrap-scss": "^4.3.1",
     "bootstrap-vue": "^2.0.0-rc.15",
     "change-case": "^3.1.0",
-    "jquery": "^3.4.0",
+    "jquery": "^3.5.0",
     "vue": "^2.6.10",
     "vue-lazyload": "^1.2.6",
     "vue-mq": "^1.0.1",

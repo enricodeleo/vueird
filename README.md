@@ -1,6 +1,10 @@
 
 ![Vueird Logo](./vueird.jpg)
 
+_Thanks to everyone having starred my repo! To star it click on the image below, then it will be on top right. Thanks!_
+
+[![Stargazers repo roster for @enricodeleo/vueird](https://reporoster.com/stars/enricodeleo/vueird)](https://github.com/enricodeleo/vueird/stargazers)
+
 # Vueird
 
 A WordPress starter theme that embraces today's practices: npm, webpack, livereload, declarative manipulation (Vue :heart:).
